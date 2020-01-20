@@ -1,0 +1,21 @@
+{
+  "name": "meteo_mountain_widget",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@glidejs/glide": "^3.2.4",
+    "lit-element": "^0.6.4",
+    "moment": "^2.22.2"
+  },
+  "scripts": {
+    "build": "NODE_ENV=production rollup -c",
+    "watch": "NODE_ENV=development rollup -c -w"
+  },
+  "devDependencies": {
+    "rollup-plugin-cleanup": "^3.1.1",
+    "rollup-plugin-img": "^1.1.0",
+    "rollup-plugin-string": "^2.0.2",
+    "rollup-plugin-svg": "^1.0.1"
+  }
+}

@@ -1,0 +1,263 @@
+@media only screen and (min-width: 320px) {
+  *,
+  :after,
+  :before {
+    box-sizing: border-box;
+  }
+  .meteo_mountain_widget {
+    font-family: sans-serif;
+    position: relative;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  .meteo_mountain_widget__container {
+    background-color: #fff;
+    padding: 24px 16px;
+  }
+  .row {
+  }
+  .col-4 {
+  }
+
+  .meteo_mountain_widget__slide_section {
+    width: 100%;
+    margin-top: 24px;
+  }
+
+  .mountain_temperature {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 42px;
+    padding: 8px 24px;
+  }
+
+  .mountain-weather__line {
+    padding-bottom: 2px;
+    border-bottom: 1px solid #b3b1b1;
+    transform: translateY(-50%);
+  }
+  .meteo_mountain_widget__moutain_level_line {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #758592;
+    padding: 8px 0;
+  }
+  .meteo_mountain_widget__moutain_level_line__meters p {
+    font-size: 12px;
+    font-weight: 600;
+    padding-top: 10px;
+    color: #758592;
+  }
+  .meteo_mountain_widget__moutain_level_line__temp p {
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  #main_slider {
+  }
+
+  .meteo_mountain_widget__slide_section__meteo_details {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 24px;
+  }
+  .meteo_mountain_widget__slide_section__meteo_details p {
+    width: 50%;
+    font-size: 14px;
+    color: #758592;
+  }
+
+  .meteo_mountain_widget__slide_section__meteo_details p:nth-child(even) {
+    text-align: right;
+    margin-bottom: 16px;
+  }
+  .meteo_mountain_widget__slide_section__conditions {
+    font-size: 17px;
+    color: #97b3c8;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  .meteo_mountain_widget__slide_section__north_south {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .meteo_mountain_widget__slide_section__north_south img {
+    width: 100px;
+    display: table;
+    margin: 0 auto;
+  }
+  .meteo_mountain_widget__slide_section__north_south__element {
+    width: 50%;
+  }
+  .meteo_mountain_widget__slide_section__north_south__element p {
+    margin-top: 16px;
+    line-height: 24px;
+  }
+  .meteo_mountain_widget__slide_section__north_south__element p strong {
+    color: #758592;
+  }
+
+  /* Placeholders */
+  .meteo_mountain_widget__slide_section .loader__placeholder.title {
+    width: 90%;
+    height: 30px;
+    margin: 0 auto;
+  }
+  .meteo_mountain_widget__slide_section .loader__placeholder.content {
+    width: 90%;
+    height: 220px;
+    margin: 24px auto 0 auto;
+  }
+  .loader__placeholder.slide_date {
+    width: 200px;
+    height: 20px;
+    margin: 16px auto;
+  }
+
+  .meteo_mountain_widget__moutain_level_wind_container {
+    position: absolute;
+    width: 70%;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #758592;
+    font-family: 'Suedtirol', sans-serif;
+  }
+
+  .meteo_mountain_widget__moutain_level_wind_title {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .meteo_mountain_widget__moutain_level_wind_desc {
+    font-size: 16px;
+    font-weight: lighter;
+    margin-top: 16px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .meteo_mountain_widget__container {
+    background-color: #fff;
+    padding: 24px 60px;
+  }
+
+  .meteo_mountain_widget__slide {
+    padding: 0 80px;
+  }
+  .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    /* margin-right: -15px;
+    margin-left: -15px; */
+    align-items: stretch;
+  }
+  .col-4 {
+    -ms-flex: 0 0 33.33333%;
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+    display: flex;
+  }
+
+  .meteo_mountain_widget__slide_section {
+    width: 100%;
+    border-right: 2px solid #e2e7e9;
+    padding: 1rem;
+    margin-top: 0;
+  }
+
+  .col-4:last-child .meteo_mountain_widget__slide_section {
+    border-right: 0;
+  }
+
+  .mountain_temperature {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 42px;
+    padding: 8px 24px;
+    position: relative;
+  }
+
+  .mountain-weather__line {
+    padding-bottom: 2px;
+    border-bottom: 1px solid #b3b1b1;
+    transform: translateY(-50%);
+  }
+  .meteo_mountain_widget__moutain_level_line {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #758592;
+    padding: 8px 0;
+  }
+  .meteo_mountain_widget__moutain_level_line__meters p {
+    font-size: 12px;
+    font-weight: 600;
+    padding-top: 10px;
+    color: #758592;
+  }
+  .meteo_mountain_widget__moutain_level_line__temp p {
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  #main_slider {
+    margin-top: 56px;
+  }
+  .meteo_mountain_widget__slide_section__meteo_details {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 24px;
+  }
+  .meteo_mountain_widget__slide_section__meteo_details p {
+    width: 50%;
+    font-size: 14px;
+    color: #758592;
+  }
+
+  .meteo_mountain_widget__slide_section__meteo_details p:nth-child(even) {
+    text-align: right;
+    margin-bottom: 16px;
+  }
+  .meteo_mountain_widget__slide_section__conditions {
+    font-size: 17px;
+    color: #97b3c8;
+    font-weight: 400;
+  }
+  .slick_dots__container {
+    display: none;
+  }
+
+  .meteo_mountain_widget__slide_section__north_south__element {
+    width: 100%;
+  }
+  /* Placeholders */
+  .meteo_mountain_widget__slide_section .loader__placeholder.title {
+    width: 90%;
+    height: 30px;
+    margin: 0 auto;
+  }
+  .meteo_mountain_widget__slide_section .loader__placeholder.content {
+    width: 90%;
+    height: 200px;
+    margin: 24px auto 0 auto;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .meteo_mountain_widget__container {
+    background-color: #fff;
+    min-height: 500px;
+    /* padding: 24px 100px; */
+    padding: 24px 0;
+  }
+  .meteo_mountain_widget__slide_section__north_south__element {
+    width: 50%;
+  }
+}

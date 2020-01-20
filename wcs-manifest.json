@@ -1,0 +1,25 @@
+{
+  "title": "Weather Mountain",
+  "description": ".",
+  "descriptionAbstract": "Weather Mountain Webcomponent",
+  "license": "AGPL-3.0",
+  "repositoryUrl": "",
+  "authors": [
+    {
+      "name": "Belka",
+      "email": "hello@belkadigital.com",
+      "organization": "Belka",
+      "organizationUrl": "https://belkadigital.com/"
+    }
+  ],
+  "image": "wcs-logo.png",
+  "searchTags": ["weather"],
+  "dist": {
+    "basePath": "dist",
+    "files": ["weather_mountain_widget.js"]
+  },
+  "configuration": {
+    "tagName": "weather-mountain",
+    "options": []
+  }
+}
