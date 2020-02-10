@@ -26,7 +26,7 @@
     "files": ["weather_mountain_widget.min.js"]
   },
   "configuration": {
-    "tagName": "weather-mountain",
+    "tagName": "meteo-mountain-widget",
     "options": [
       {
         "key": "language_translation",
