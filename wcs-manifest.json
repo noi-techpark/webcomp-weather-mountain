@@ -1,7 +1,7 @@
 {
-  "title": "Weather Mountain",
-  "description": "The South Tyrolean Weather from the top of our mountains",
-  "descriptionAbstract": "Weather Mountain Webcomponent",
+  "title": "Weather in South Tyrol - mountain weather",
+  "description": "Temperatures and forecast for the South Tyrolean mountains",
+  "descriptionAbstract": "Weather mountain webcomponent",
   "license": "AGPL-3.0-or-later",
   "copyrightHolders": [
     {
