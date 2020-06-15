@@ -81,7 +81,7 @@ class MeteoMountain extends LitElement {
       <div class="meteo_mountain_widget">
         <div class="meteo_mountain_widget__container">
           <h1>${p.mountain_weather[this.language_translation]}</h1>
-          <div style="">
+          <div>
             <div class="loader__placeholder content"><div class="line"></div></div>
           </div>
           <div id="main_slider" class="glide">
