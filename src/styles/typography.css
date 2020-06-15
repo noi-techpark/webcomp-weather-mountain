@@ -4,7 +4,7 @@
   h3 {
     margin: 0 0 16px 0;
     color: #333;
-    font-family: 'Suedtirol', 'KievitWebPro', sans-serif;
+    font-family: var(--webcomp-weather-mountain-font-family, Suedtirol, KievitWebPro, sans-serif);
   }
   h2 {
     text-align: center;

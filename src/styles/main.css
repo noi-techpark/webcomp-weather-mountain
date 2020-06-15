@@ -5,7 +5,7 @@
     box-sizing: border-box;
   }
   .meteo_mountain_widget {
-    font-family: sans-serif;
+    font-family: var(--webcomp-weather-mountain-font-family, Suedtirol, KievitWebPro, sans-serif);
     position: relative;
     margin-top: 3rem;
     margin-bottom: 3rem;
@@ -125,7 +125,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: #758592;
-    font-family: 'Suedtirol', sans-serif;
+    font-family: var(--webcomp-weather-mountain-font-family, Suedtirol, KievitWebPro, sans-serif);
   }
 
   .meteo_mountain_widget__moutain_level_wind_title {
