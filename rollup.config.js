@@ -16,9 +16,9 @@ export default {
     format: 'iife'
   },
   plugins: [
-    string({ include: '**/*.css' }),
-    commonJS(),
     resolve(),
+    commonJS(),
+    string({ include: '**/*.css' }),
     svg(),
     image({
       limit: 10000
