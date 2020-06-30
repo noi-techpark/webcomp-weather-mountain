@@ -1,4 +1,4 @@
 diy/
-node_modules/
-work/scripts/
+node_modules
+work/scripts
 .vscode/
