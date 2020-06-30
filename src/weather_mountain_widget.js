@@ -15,14 +15,15 @@ import main from './styles/main.css';
 import style__placeholder_loading from './styles/placeholder-loading.css';
 import style__typography from './styles/typography.css';
 import { p } from './translations';
+import { API_TOKEN, API_BASE_PATH } from './constants';
 
 class MeteoMountain extends LitElement {
   constructor() {
     super();
     this.language_translation = 'it';
     this.weather_data = {};
-    this.token = `iJ9gIQJ-LFaNT2m-R_dazqCf2XoXO8trlqZsgN6ENAMD9lrWsdKKxoOYkHdNQt9UAUJlMosEiF-njEUtoNwT3V6AtIt08bxrLa0DKLJYroj54I_C1kCPiWV69KR1IXUZj18av-nuofuYDzpE8jRYL02SI97jHEGWfnRLNOfLyEsp3pAp17rm-p6hst-t7Z0bYJkIqFvERMd4QHshaRvAb89EUPb_zEHj1JwgBUOwFIHf0e8Bm-1-nL8d9o9AIEGGDAIiJfvjGmNT-54vteKx1E_r7liUDuXfL0pctOpu5w5Mb_yBmnJsDGFjq7YHVL9dIqZzUvXnRXq1x4novqquK0jiEXRI3XxQN-qKuMpYQ8XqsXQWTjWqoGqgqbIGYpRXMcAUvO-6Y7SSKKvtMLvXGZjlC_IA0TMvF2r8JQbfluFk2XzKs7sqIu6OCxWT4Xxn8U2NWFtKXK4RkfXP9zOMP4FtTfz-X3kgwwgWuUnFvbufk9xRF8nNwqsxgwedNtnw0ouzarOI3zUFRg0dBKJse1z-_rGkF4QvTWwzGG17LPs`;
-    this.base_url = `https://tourism.opendatahub.bz.it/api/Weather`;
+    this.token = API_TOKEN;
+    this.base_url = API_BASE_PATH;
     this.is_loading = true;
     this.current_slide = 0;
     // binded actions
@@ -56,16 +57,8 @@ class MeteoMountain extends LitElement {
       }
     }
 
-    this.today_slide = mountain_today
-      ? html`
-          ${this.render__mountain_slide(mountain_today, 0)}
-        `
-      : '';
-    this.tomorrow_slide = mountain_tomorrow
-      ? html`
-          ${this.render__mountain_slide(mountain_tomorrow, 1)}
-        `
-      : '';
+    this.today_slide = mountain_today ? html` ${this.render__mountain_slide(mountain_today, 0)} ` : '';
+    this.tomorrow_slide = mountain_tomorrow ? html` ${this.render__mountain_slide(mountain_tomorrow, 1)} ` : '';
 
     this.requestUpdate();
 
@@ -88,7 +81,7 @@ class MeteoMountain extends LitElement {
       <div class="meteo_mountain_widget">
         <div class="meteo_mountain_widget__container">
           <h1>${p.mountain_weather[this.language_translation]}</h1>
-          <div style="">
+          <div>
             <div class="loader__placeholder content"><div class="line"></div></div>
           </div>
           <div id="main_slider" class="glide">
