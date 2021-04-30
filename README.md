@@ -75,11 +75,11 @@ Using the `--webcomp-weather-mountain-font-family` css variable you can set a cu
 
 ```html
 <style>
-  meteo-mountain-widget.en_widget {
+  odh-weather-mountain.en_widget {
     --webcomp-weather-mountain-font-family: Metal Mania;
   }
 </style>
-<meteo-mountain-widget class="en_widget" language_translation="en"></meteo-mountain-widget>
+<odh-weather-mountain class="en_widget" language_translation="en"></odh-weather-mountain>
 ```
 
 ### Dist folder in packages

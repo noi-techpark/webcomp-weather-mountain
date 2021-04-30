@@ -23,10 +23,10 @@
   "searchTags": ["weather"],
   "dist": {
     "basePath": "dist",
-    "files": ["weather_mountain_widget.min.js"]
+    "files": ["odh-weather-mountain.min.js"]
   },
   "configuration": {
-    "tagName": "meteo-mountain-widget",
+    "tagName": "odh-weather-mountain",
     "options": [
       {
         "key": "language_translation",

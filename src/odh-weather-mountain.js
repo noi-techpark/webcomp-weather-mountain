@@ -124,6 +124,6 @@ class MeteoMountain extends LitElement {
   }
 }
 
-if (!window.customElements.get('meteo-mountain-widget')) {
-  window.customElements.define('meteo-mountain-widget', MeteoMountain);
+if (!window.customElements.get('odh-weather-mountain')) {
+  window.customElements.define('odh-weather-mountain', MeteoMountain);
 }
