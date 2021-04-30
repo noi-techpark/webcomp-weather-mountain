@@ -7,7 +7,7 @@ Files: src/* work/* dist/*.js odh-*.js
 Copyright: (c) 2021 Belka <hello@belkadigital.com>
 License: AGPL-3.0-or-later
 
-Files: src/*.md src/*.txt .env.* *.js.LICENSE.txt
+Files: src/*.md src/*.txt .env.* *.js.LICENSE.txt .prettierrc rollup.config.js
 Copyright: (c) 2021 Belka <hello@belkadigital.com>
 License: CC0-1.0
 
