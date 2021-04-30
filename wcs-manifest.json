@@ -20,10 +20,14 @@
     }
   ],
   "image": "wcs-logo.png",
-  "searchTags": ["weather"],
+  "searchTags": [
+    "weather"
+  ],
   "dist": {
     "basePath": "dist",
-    "files": ["odh-weather-mountain.min.js"]
+    "files": [
+      "odh-weather-mountain.min.js"
+    ]
   },
   "configuration": {
     "tagName": "odh-weather-mountain",
@@ -34,7 +38,16 @@
         "label": "Language",
         "required": false,
         "options": {
-          "values": ["en", "de", "it", "nl", "cs", "pl", "fr", "ru"],
+          "values": [
+            "en",
+            "de",
+            "it",
+            "nl",
+            "cs",
+            "pl",
+            "fr",
+            "ru"
+          ],
           "default": "en"
         }
       }
