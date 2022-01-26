@@ -1,6 +1,7 @@
 # Weather Mountain Web Component
 
 [![REUSE status](https://api.reuse.software/badge/github.com/noi-techpark/webcomp-weather-mountain)](https://api.reuse.software/info/github.com/noi-techpark/webcomp-weather-mountain)
+[![CI](https://github.com/noi-techpark/webcomp-weather-mountain/actions/workflows/ci.yml/badge.svg)](https://github.com/noi-techpark/webcomp-weather-mountain/actions/workflows/ci.yml)
 
 Weather in the mountains of South Tyrol in various languages.
 
