@@ -3,6 +3,7 @@
   "description": "Temperatures and forecast for the South Tyrolean mountains",
   "descriptionAbstract": "Weather mountain webcomponent",
   "license": "AGPL-3.0-or-later",
+  "repositoryUrl": "https://github.com/noi-techpark/webcomp-weather-mountain.git",
   "copyrightHolders": [
     {
       "name": "IDM",
