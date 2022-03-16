@@ -2,7 +2,7 @@
 import { html } from 'lit-element';
 import Glide from '@glidejs/glide';
 
-const ORIGIN = `webcomp=webcomp-weather-mountain`;
+const ORIGIN = `origin=webcomp-weather-mountain`;
 
 export async function basic_weather_request() {
   let language =
