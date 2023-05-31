@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
+
+SPDX-License-Identifier: CC0-1.0
+-->
+
 # Weather Mountain Web Component
 
 [![REUSE status](https://api.reuse.software/badge/github.com/noi-techpark/webcomp-weather-mountain)](https://api.reuse.software/info/github.com/noi-techpark/webcomp-weather-mountain)
