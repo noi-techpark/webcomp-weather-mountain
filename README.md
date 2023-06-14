@@ -12,7 +12,7 @@ SPDX-License-Identifier: CC0-1.0
 
 Weather in the mountains of South Tyrol in various languages.
 
-Do you want to see it in action? Go to our [web component store](https://webcomponents.opendatahub.bz.it/webcomponent/fa42e0f0-149a-418c-8edf-f4c99b6eea4f)!
+Do you want to see it in action? Go to our [web component store](https://webcomponents.opendatahub.com/webcomponent/fa42e0f0-149a-418c-8edf-f4c99b6eea4f)!
 
 - [Weather Mountain Web Component](#weather-mountain-web-component)
   - [Getting Started](#getting-started)
@@ -101,7 +101,7 @@ Using the `--webcomp-weather-mountain-font-family` css variable you can set a cu
 
 ### Support
 
-For support, please contact [help@opendatahub.bz.it](mailto:help@opendatahub.bz.it).
+For support, please contact [help@opendatahub.com](mailto:help@opendatahub.com).
 
 ### Contributing
 
