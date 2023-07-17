@@ -4,6 +4,7 @@
   "descriptionAbstract": "Weather mountain webcomponent",
   "license": "AGPL-3.0-or-later",
   "repositoryUrl": "https://github.com/noi-techpark/webcomp-weather-mountain.git",
+  "shortName": "weather-in-south-tyrol-mountain-weather",
   "copyrightHolders": [
     {
       "name": "IDM",
