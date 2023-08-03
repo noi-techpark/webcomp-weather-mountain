@@ -19,14 +19,14 @@ import main from './styles/main.css';
 import style__placeholder_loading from './styles/placeholder-loading.css';
 import style__typography from './styles/typography.css';
 import { p } from './translations';
-import { API_TOKEN, API_BASE_PATH } from './constants';
+import { API_BASE_PATH } from './constants';
 
 class MeteoMountain extends LitElement {
   constructor() {
     super();
     this.language_translation = 'it';
     this.weather_data = {};
-    this.token = API_TOKEN;
+    //this.token = API_TOKEN;
     this.base_url = API_BASE_PATH;
     this.is_loading = true;
     this.current_slide = 0;

@@ -7,17 +7,18 @@ import { html } from 'lit-element';
 import Glide from '@glidejs/glide';
 
 const ORIGIN = `origin=webcomp-weather-mountain`;
+const SOURCE = `source=siag`;
 
 export async function basic_weather_request() {
   let language =
     this.language_translation === 'en' || this.language_translation === 'it' || this.language_translation === 'de'
       ? this.language_translation
       : 'en';
-  let request = await fetch(this.base_url + `?language=${language}&` + ORIGIN, {
+  let request = await fetch(this.base_url + `?language=${language}&` + ORIGIN + `&` + SOURCE, {
     method: 'GET',
     headers: new Headers({
-      Accept: 'application/json',
-      Authorization: `Bearer ${this.token}`
+      Accept: 'application/json'
+      //Authorization: `Bearer ${this.token}`
     })
   });
 
