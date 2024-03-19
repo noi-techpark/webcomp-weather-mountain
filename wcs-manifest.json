@@ -23,7 +23,8 @@
   ],
   "image": "wcs-logo.png",
   "searchTags": [
-    "weather"
+    "weather",
+    "forecast"
   ],
   "dist": {
     "basePath": "dist",
