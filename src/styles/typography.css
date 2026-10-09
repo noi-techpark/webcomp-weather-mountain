@@ -11,6 +11,8 @@
     margin: 0 0 16px 0;
     color: #333;
     font-family: var(--webcomp-weather-mountain-font-family, Suedtirol, KievitWebPro, sans-serif);
+    overflow-wrap: anywhere;
+    word-break: break-word;
   }
   h2 {
     text-align: center;
