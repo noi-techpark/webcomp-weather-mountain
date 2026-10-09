@@ -1,8 +1,0 @@
-Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: webcomp-weather-mountain
-Upstream-Contact: (c) NOI Techpark <digital@noi.bz.it>
-Source: https://github.com/noi-techpark/webcomp-weather-mountain
-
-Files: .github/* infrastructure/* .gitignore .pre-commit-config.yaml LICENSE.md .editorconfig .prettierrc *.png *.json
-Copyright: (c) NOI Techpark <digital@noi.bz.it>
-License: CC0-1.0
