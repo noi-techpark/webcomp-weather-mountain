@@ -32,11 +32,17 @@
 
   .mountain_temperature {
     width: 100%;
-    height: 200px;
+    min-height: 200px;
+    height: auto;
     background-size: cover;
     background-position: center;
     margin-top: 42px;
     padding: 8px 24px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 4px;
   }
 
   .mountain-weather__line {
@@ -47,8 +53,10 @@
   .meteo_mountain_widget__moutain_level_line {
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
     border-bottom: 1px solid #758592;
     padding: 8px 0;
+    gap: 8px;
   }
   .meteo_mountain_widget__moutain_level_line__meters p {
     font-size: 12px;
@@ -73,6 +81,8 @@
     width: 50%;
     font-size: 14px;
     color: #758592;
+    overflow-wrap: anywhere;
+    word-break: break-word;
   }
 
   .meteo_mountain_widget__slide_section__meteo_details p:nth-child(even) {
@@ -84,6 +94,8 @@
     color: #97b3c8;
     font-weight: 400;
     line-height: 24px;
+    overflow-wrap: anywhere;
+    word-break: break-word;
   }
   .meteo_mountain_widget__slide_section__north_south {
     display: flex;
@@ -124,24 +136,27 @@
   }
 
   .meteo_mountain_widget__moutain_level_wind_container {
-    position: absolute;
-    width: 70%;
+    position: relative;
+    width: 100%;
     text-align: center;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     color: #758592;
     font-family: var(--webcomp-weather-mountain-font-family, Suedtirol, KievitWebPro, sans-serif);
+    margin-bottom: 8px;
+    line-height: 1.3;
+    overflow-wrap: anywhere;
+    word-break: break-word;
   }
 
   .meteo_mountain_widget__moutain_level_wind_title {
     font-weight: bold;
     font-size: 16px;
+    line-height: 1.3;
   }
   .meteo_mountain_widget__moutain_level_wind_desc {
     font-size: 16px;
     font-weight: lighter;
-    margin-top: 16px;
+    margin-top: 4px;
+    line-height: 1.3;
   }
 }
 
@@ -183,12 +198,17 @@
 
   .mountain_temperature {
     width: 100%;
-    height: 200px;
+    min-height: 200px;
+    height: auto;
     background-size: cover;
     background-position: center;
     margin-top: 42px;
     padding: 8px 24px;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 4px;
   }
 
   .mountain-weather__line {
@@ -199,8 +219,10 @@
   .meteo_mountain_widget__moutain_level_line {
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
     border-bottom: 1px solid #758592;
     padding: 8px 0;
+    gap: 8px;
   }
   .meteo_mountain_widget__moutain_level_line__meters p {
     font-size: 12px;
@@ -225,6 +247,8 @@
     width: 50%;
     font-size: 14px;
     color: #758592;
+    overflow-wrap: anywhere;
+    word-break: break-word;
   }
 
   .meteo_mountain_widget__slide_section__meteo_details p:nth-child(even) {
@@ -235,6 +259,8 @@
     font-size: 17px;
     color: #97b3c8;
     font-weight: 400;
+    overflow-wrap: anywhere;
+    word-break: break-word;
   }
   .slick_dots__container {
     display: none;
